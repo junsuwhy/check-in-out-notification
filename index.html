@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+  <meta charset="utf-8"/>
+  <title></title>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "{{APP-ID}}",
+    });
+  });
+</script>
+</head>
+<body>
+<h1>自動提醒打卡</h1>
+<p>請按右下角小紅點，並選擇允許通知。允許後即使關閉此網頁，只要有開瀏覽器，每天上午10點跟下午6點自動通知。用手機也有效。</p>
+</body>
+</html>

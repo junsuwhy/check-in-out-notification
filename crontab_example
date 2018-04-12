@@ -1,0 +1,2 @@
+0 10 * * 1-5 sh /var/www/check-in-out.whyc.at/check-in-out.sh 上班
+0 18 * * 1-5 sh /var/www/check-in-out.whyc.at/check-in-out.sh 下班
